@@ -1,0 +1,32 @@
+{
+  "name": "penguin-postcss",
+  "version": "1.0.0",
+  "description": "Dead simple tool to use postcss together with penguin.",
+  "main": "bin/penguin-postcss.js",
+  "bin": {
+    "penguin-postcss": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "glob": "^7.1.1",
+    "minimatch": "^3.0.3",
+    "mkdirp": "^0.5.1",
+    "postcss": "^5.2.11",
+    "subarg": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domachine/penguin-postcss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domachine/penguin-postcss/issues"
+  },
+  "homepage": "https://github.com/domachine/penguin-postcss#readme"
+}
